@@ -70,81 +70,113 @@
 
     </nav>
 
-    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-      <li class="nav-item" role="presentation">
-        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
-          role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="bi bi-table"></i></button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
-          role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="bi bi-square-fill"></i></button>
-      </li>
-
-    </ul>
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active justify-content-center" id="home-tab-pane" role="tabpanel"
-        aria-labelledby="home-tab" tabindex="0">
-        <div class="container-images1">
-          <img src="https://definicion.de/wp-content/uploads/2013/03/perro-1.jpg" class="img-thumbnail" alt="perro">
-          <img src="https://preview.redd.it/tlp91ua22snb1.jpg?auto=webp&s=72a1878b786f9537afd9fbfb0224c50bd08fcbc4"
-            class="img-thumbnail" alt="BMW M3">
-          <img src="https://www.segurilatam.com/wp-content/uploads/sites/5/2021/10/jugador-de-videojuegos-900x600.jpg"
-            class="img-thumbnail" alt="gaming">
-        </div>
-
-        <div class="tab-pane fade show active justify-content-center" id="home-tab-pane" role="tabpanel"
-          aria-labelledby="home-tab" tabindex="0">
-          <div class="container-images1">
-            <img src="https://www.triptomax.com/wp-content/uploads/2018/05/shutterstock_193994486.jpg"
-              class="img-thumbnail" alt="familia">
-            <img
-              src="https://cdn.prod.website-files.com/5f5a53e153805db840dae2db/643ec21a9c45304c1a3a07b7_Que%20es%20un%20lenguaje%20de%20programacion%20JavaScript.jpg"
-              class="img-thumbnail" alt="Program">
-            <img
-              src="https://mott.pe/noticias/wp-content/uploads/2019/03/los-50-paisajes-maravillosos-del-mundo-para-tomar-fotos.jpg"
-              class="img-thumbnail" alt="paisaje">
+    <div class="container-fluid p-2">
+      <ul class="nav nav-pill justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+            aria-controls="home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab"
+            aria-controls="profile" aria-selected="false"><i class="fa-solid fa-square"></i></a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        
+        <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="row">
+            <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;"
+                src="https://content.nationalgeographic.com.es/medio/2023/11/29/golden-retriever-corriendo_7a50f15e_231129131211_800x800.jpg"
+                class="img-fluid w-100" alt="perro"></div>
+            <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;"
+                src="https://www.triptomax.com/wp-content/uploads/2018/05/shutterstock_193994486.jpg"
+                class="img-fluid w-100" alt="familia"></div>
+            <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;"
+                src="https://www.lavozdemichoacan.com.mx/wp-content/uploads/2023/08/caracteristicas-gamer-profesional.jpg" class="img-fluid w-100" alt="gaming"></div>
           </div>
-
-          <div class="tab-pane fade show active justify-content-center" id="home-tab-pane" role="tabpanel"
-            aria-labelledby="home-tab" tabindex="0">
-            <div class="container-images1">
-              <img
-                src="https://st4.depositphotos.com/34687568/40536/i/450/depositphotos_405367068-stock-photo-orlando-magic-hosts-lakers-amway.jpg"
-                class="img-thumbnail" alt="deporte">
-              <img
+          <div class="row">
+            <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;"
                 src="https://cdn.goconqr.com/uploads/media/image/20914396/desktop_ee54a76f-de72-4d32-bd6f-9973bb547fe6.jpg"
-                class="img-thumbnail" alt="pizza">
-              <img src="https://www.clarin.com/2024/03/19/ZjUDco4Lb_2000x1500__1.jpg" class="img-thumbnail" alt="anime">
-            </div>
-
+                class="img-fluid w-100" alt="pizza"></div>
+            <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;"
+                src="https://static.wikia.nocookie.net/nfs/images/f/ff/MW2012M3GTRE46.jpg/revision/latest?cb=20130329120622&path-prefix=en"
+                class="img-fluid w-100" alt="bmw m3"></div>
+            <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;"
+                src="https://www.clarin.com/2024/03/19/ZjUDco4Lb_2000x1500__1.jpg" class="img-fluid w-100"
+                alt="anime"></div>
           </div>
-          <div class="tab-pane fade justify-content-center" id="profile-tab-pane" role="tabpanel"
-            aria-labelledby="profile-tab" tabindex="0">
-
-            <div class="col-sm-6 col-sm-offset-3">esto va vacio</div>
-
-            <div class="card" style="width: 18rem;">
-              <img src="https://definicion.de/wp-content/uploads/2013/03/perro-1.jpg" class="card-img-top" alt="perro">
-              <div class="card-body">
-                <h6 class="card-title"><strong>203 likes</strong></h6>
-                <p class="card-text">I love my dog.</p>
+          <div class="row">
+            <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;"
+                src="https://maravillasdelatierrablog.wordpress.com/wp-content/uploads/2016/04/paisaje-natural-11.jpg" class="img-fluid w-100" alt="paisaje"></div>
+            <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;"
+                src="https://static0.housfy.com/prod/blog/images/2019/07/16113253/ialicante-mediterranean-homes-2d4lAQAlbDA-unsplash.jpg" class="img-fluid w-100" alt="casa"></div>
+            <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;"
+                src="https://cdn.aarp.net/content/dam/aarpe/es/home/turismo/consejos-para-viajar/info-2020/viajes-despues-de-pandemia-de-coronavirus/_jcr_content/root/container_main/container_body_main/container_body1/container_body_cf/container_image/articlecontentfragment/cfimage.coreimg.50.932.jpeg/content/dam/aarp/travel/tips/2020/05/1140-man-looking-at-world-map-on-wall-esp.jpg"
+                class="img-fluid w-100" alt="viaje"></div>
+          </div>
+        </div>
+        
+        <div class="tab-pane fade overflow-hidden" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="row my-4">
+            <div class="col-6 mx-auto border rounded p-0">
+              <div class="d-flex p-2">
+                <div class="w-100 fs-4">Best friend eveeerr!</div>
+                <small class="align-bottom">04/26</small>
+              </div>
+              <img style="object-fit: cover;"
+                src="https://content.nationalgeographic.com.es/medio/2023/11/29/golden-retriever-corriendo_7a50f15e_231129131211_800x800.jpg"
+                class="img-fluid w-100 col-12" alt="perro" />
+              <div class="p-2">
+                <strong>254 Likes</strong>
+                <p>This is the best photo I could take</p>
               </div>
             </div>
-
           </div>
-
+          <div class="row my-4">
+            <div class="col-6 mx-auto border rounded p-0">
+              <div class="d-flex p-2">
+                <div class="w-100 fs-4">Together as pasta</div>
+                <small>05/26</small>
+              </div>
+              <img style="object-fit: cover;" src="https://www.triptomax.com/wp-content/uploads/2018/05/shutterstock_193994486.jpg"
+                class="img-fluid w-100 col-12" alt="familia" />
+              <div class="p-2">
+                <strong>547 Likes</strong>
+                <p>Family is my hole world</p>
+              </div>
+            </div>
+          </div>
+          <div class="row my-4">
+            <div class="col-6 mx-auto border rounded p-0">
+              <div class="d-flex p-2">
+                <div class="w-100 fs-4">Hobby time</div>
+                <small>07/26</small>
+              </div>
+              <img style="object-fit: cover;"
+                src="https://www.lavozdemichoacan.com.mx/wp-content/uploads/2023/08/caracteristicas-gamer-profesional.jpg"
+                class="img-fluid w-100 col-12" alt="" />
+              <div class="p-2">
+                <strong>751 Likes</strong>
+                <p>This is where I go, whenever I need a "me" time</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-
-
-
       </div>
+    </div>
+
+  </div>
 
 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
